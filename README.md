@@ -2,4 +2,4 @@
 
 Hi,
 
-This is my frist data warehousing and analytics project.
+This is my first data warehousing and analytics project.
