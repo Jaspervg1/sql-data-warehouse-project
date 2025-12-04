@@ -1,0 +1,19 @@
+Questions that you can ask to understand the source. This in order to extract the correct data.
+
+Business Context & Ownership
+- Who owns the data?
+- What Business Process it supports? (customer transactions, supply chain logistics or finance reporting?)
+  You can understand the importance of your data
+- System & Data documentation?
+- Data Model from the source system & Data catalog. Like descriptions of the columns and the tables. For example joining tables together.
+
+Architecture & Technology Stack
+- How is the data stored? (on prem: Sql Server, Oracle, Cloud: AWS, Azure, Snowflake..)
+- What are the integration capabilities? How am I going to get the data? (API, Kafka, file extraction, Direct DB.)
+
+Extract & Load
+- Incremental vs Full Loads?
+- Data Scope & Historical needs. Do we need all data? 10 years of data. Are the histories already in the source system, or do we build it in the data warehouse.
+- Expected size of the extracts? MB, GB, TB?
+- Are there any data volume limitations? Perfomance of that source system.
+- Authentication and AUthorization (Tokens, keys, VPN)
